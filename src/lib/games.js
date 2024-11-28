@@ -17,7 +17,7 @@ const GAME_SIMPLE_2 = {
 
 // 2024-10-11-146
 const GAME_1 = {
-  letters: 'abcde',
+  letters: 'abcder',
   words: new Map([
     ['acre',  { origin: [0, 0], direction: 'vertical'} ],
     ['cebar', { origin: [2, 0], direction: 'vertical' }],
@@ -64,7 +64,6 @@ const GAMES = [
   GAME_1,
   GAME_2,
   GAME_3,
-  GAME_4,
+  GAME_4
 ]
-
 export default GAMES
