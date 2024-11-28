@@ -71,7 +71,6 @@ class Game {
     for (let i = 0; i < word.length; i++) {
       positions.push([x + i * incX, y + i * incY])
     }
-
     return positions
   }
 

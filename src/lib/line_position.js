@@ -1,10 +1,11 @@
 function getElementCenter(element) {
   const { left, top, width, height } = element.getBoundingClientRect()
   return {
-      x: left + width / 2,
-      y: top + height / 2
+      x: left + width / 2 + window.scrollX,   
+      y: top + height / 2 + window.scrollY
   }
 }
+
 
 function lengthAndAngle([x_origin,y_origin], [x_end,y_end]) {
   const deltaX = x_end - x_origin

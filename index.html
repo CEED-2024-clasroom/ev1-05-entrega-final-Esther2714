@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CEED Cross</title>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
 </head>
 
 <body>
@@ -13,10 +14,11 @@
     <div id="game">
 
       <div id="black" class="hidden"></div>
-      
+
+
       <section id="word-grid">
         <div id="grid">
-          <div class="letter" style="grid-area: 3 / 3;"></div>
+          <!-- <div class="letter" style="grid-area: 3 / 3;"></div>
           <div class="letter" style="grid-area: 4 / 3;"></div>
           <div class="letter" style="grid-area: 5 / 3;"></div>
           <div class="letter" style="grid-area: 6 / 3;"></div>
@@ -30,36 +32,37 @@
           <div class="letter" style="grid-area: 6 / 7;"></div>
           <div class="letter" style="grid-area: 7 / 7;"></div>
           <div class="letter" style="grid-area: 4 / 4;"></div>
-          <div class="letter" style="grid-area: 5 / 6;"></div>
+          <div class="letter" style="grid-area: 5 / 6;"></div> -->
         </div>
       </section>
 
       <section id="controls">
         <div class="tools left">
-          <div class="tool"><i class="tool-icon fa-solid fa-shuffle"></i></div>
-          <div class="tool"><i class="tool-icon fa-solid fa-expand"></i></div>
+          <div class="tool" id="mezcla"><i class="tool-icon fa-solid fa-shuffle"></i></div>
+          <div class="tool" id="diana"><i class="tool-icon fa-solid fa-expand"></i></div>
         </div>
 
         <div id="wheel-container">
           <div id="wheel">
             <!-- The letters will be here -->
-            <div class="wheel-letter" style="left: 50%; top: 20%;">c</div>
-            <div class="wheel-letter" style="left: 21.4683%; top: 40.7295%;">r</div>
-            <div class="wheel-letter" style="left: 32.3664%; top: 74.2705%;">b</div>
-            <div class="wheel-letter" style="left: 67.6336%; top: 74.2705%;">e</div>
-            <div class="wheel-letter" style="left: 78.5317%; top: 40.7295%;">a</div>
+            <!-- <div class="wheel-letter" style="left: 50%; top: 20%;">c</div>
+              <div class="wheel-letter" style="left: 21.4683%; top: 40.7295%;">r</div>
+              <div class="wheel-letter" style="left: 32.3664%; top: 74.2705%;">b</div>
+              <div class="wheel-letter" style="left: 67.6336%; top: 74.2705%;">e</div>
+              <div class="wheel-letter" style="left: 78.5317%; top: 40.7295%;">a</div> -->
           </div>
         </div>
 
         <div class="tools right">
-          <div class="tool"><i class="tool-icon fa-solid fa-lightbulb"></i></div>
-          <div class="tool"><i class="tool-icon fa-solid fa-hammer"></i></div>
+          <div class="tool" id="bombilla"><i class="tool-icon fa-solid fa-lightbulb"></i></div>
+          <div class="tool" id="martillo"><i class="tool-icon fa-solid fa-hammer"></i></div>
         </div>
       </section>
 
     </div>
 
   </main>
+  <script type="module" src="./src/main.js"></script>
 </body>
 
 </html>
